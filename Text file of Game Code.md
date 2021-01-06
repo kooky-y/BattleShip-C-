@@ -1,5 +1,6 @@
 # BattleShip-C- //Code
 //BattleShip Game in C++
+//Code by Muhammad Ahmad (Kookyy)
 #include <iostream>
 #include <fstream>
 #include <time.h>
@@ -85,7 +86,7 @@ break;
   //Array of 15x15
   case 2:
 
-
+//Code by Muhammad Ahmad (Kookyy)
 gameboard15x15.open("original15.txt");
 
 for (row = 0; row < 16; row++) {
@@ -175,7 +176,7 @@ gameboard20x20 << endl;
 }
 break;
 
-}
+}//Code by Muhammad Ahmad (Kookyy)
 }
 //End oF ShowOpponentBoard
 void ShipsPlacement10(){ //Placement of 10x10 Computer Ships.
@@ -234,7 +235,7 @@ else if(ShipSize[i]==4){   //PlaceMent of BattleShip.
         else{
             goto AirCarrier;
         }
-
+//Code by Muhammad Ahmad (Kookyy)
         }
         if(counter == 4){
             for(int g=0;g<4;g++){
@@ -298,7 +299,7 @@ else if(i==3){   //Submarin+e Placement
         for(int w=0;w<3;w++){
             if(Placement10[w+row][col]=="o"){
                 ++counter;
-            }
+      //Code by Muhammad Ahmad (Kookyy)      }
         else{
             goto AirCarrier;
         }
@@ -352,7 +353,7 @@ else if(ShipSize[i]==2){   //PlaceMent of Destroyer
                 Placement10[n+row][col]="D";
             }
         }
-
+//Code by Muhammad Ahmad (Kookyy)
     }
     else if(direction==0 && col<=8){
 
@@ -381,7 +382,7 @@ else if(ShipSize[i]==2){   //PlaceMent of Destroyer
 }//end Of Destroyer Ship.
 
 }
-
+//Code by Muhammad Ahmad (Kookyy)
 ofstream placementof10("random10.txt");
 for (int x = 0; x < 11; x++) {
 for (int y = 0; y < 11; y++) {
