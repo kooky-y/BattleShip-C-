@@ -1,0 +1,16 @@
+@ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+A o o o o A A A A A o  o  o  o  o  o  
+B o o o o o o o o o o  o  o  o  o  o  
+C o o o o o o o o o o  o  o  o  o  o  
+D o o o o o o o o o o  o  o  o  o  o  
+E o o o o o o o o o o  o  o  o  o  o  
+F o o o o o o o o o o  o  o  o  o  o  
+G o o o o o o o o o o  o  o  o  o  o  
+H o o o o o o o o o o  o  o  o  o  o  
+I o o o C o o o o o o  o  o  o  o  o  
+J o o o C o o o o o D  o  o  o  o  o  
+K o o o C o o o o o D  o  o  o  o  o  
+L o S o o o o o o o o  o  o  o  o  o  
+M o S o o o o B B B B  o  o  o  o  o  
+N o S o o o o o o o o  o  o  o  o  o  
+O o o o o o o o o o o  o  o  o  o  o  
